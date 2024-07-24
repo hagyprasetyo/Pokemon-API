@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #1a202c;
+    --text-light: #000000;
+    --text-dark: #ffffff;
+  }
+
+  @keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .animate-move {
+    animation: move 2s infinite;
+  }
